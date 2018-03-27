@@ -1,0 +1,12 @@
+git clone https://github.com/cgs-matthew-pham/week4.git 
+(this will clone the contents of your repository onto your machine, i.e. creating a copy of directories and files )
+git checkout -b new_week4
+(this will change your version that you're working to a new branch, which means any changes you make or commit)
+git add test.txt
+(this file has to exist, and you could add it to your repository, which will only add it to your branch)
+git commit -am "a description of your changes"
+(this will save your changes to your local machine, in your specific branch)
+git push 
+(this will go ONLINE)
+git merge new_week4
+(this will merge your changes into the main branch, or what we call the master branch)
